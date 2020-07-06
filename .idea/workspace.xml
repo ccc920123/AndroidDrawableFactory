@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="571143ae-c3ec-46cf-b717-4627e5f91cde" name="Default" comment="" />
+    <list default="true" id="571143ae-c3ec-46cf-b717-4627e5f91cde" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/icon/main.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AndroidDrawableFactory/icon/chenckimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/icon/chenckimage.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AndroidDrawableFactory/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/out/production/AndroidDrawableFactory/META-INF/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +49,8 @@
       <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="69" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="10" selection-end-column="69" />
+            <state relative-caret-position="630">
+              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -100,6 +107,9 @@
       <dir>D:\MyProject\AndroidDrawableFactory\src\com\stardon\androiddrawable</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -108,9 +118,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/com/stardon/androiddrawable/Main.java" />
         <option value="$PROJECT_DIR$/src/com/stardon/androiddrawable/DrawableAction.java" />
+        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
       </list>
     </option>
   </component>
@@ -133,13 +143,14 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectId" id="1e9ryvmN7eLTmnKI4au3bo5OXcI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -166,6 +177,12 @@
               <item name="AndroidDrawableFactory" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidDrawableFactory" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDrawableFactory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDrawableFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AndroidDrawableFactory" type="b2602c69:ProjectViewProjectNode" />
@@ -240,8 +257,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyProject\AndroidDrawableFactory\src" />
       <recent name="D:\MyProject\AndroidDrawableFactory\resources\icon" />
+      <recent name="D:\MyProject\AndroidDrawableFactory\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -375,15 +392,15 @@
       <workItem from="1593762685029" duration="454000" />
       <workItem from="1593763463120" duration="613000" />
       <workItem from="1593764222814" duration="3398000" />
-      <workItem from="1594017447827" duration="4696000" />
+      <workItem from="1594017447827" duration="7946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8094000" />
+    <option name="totallyTimeSpent" value="11344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -394,7 +411,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -554,8 +571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="69" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="10" selection-end-column="69" />
+        <state relative-caret-position="630">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding />
         </state>
       </provider>

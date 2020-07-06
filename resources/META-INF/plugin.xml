@@ -1,10 +1,11 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>AndroidDrawable</name>
+  <id>com.stardon.androiddrawable.plugin.xhdpi</id>
+  <name>AndroidDrawableXhdpi</name>
   <version>1.0</version>
-  <vendor email="645503254@qq.com" url="http://www.yourcompany.com">Drawable xhdpi 转换</vendor>
+  <vendor email="645503254@qq.com" url="https://github.com/ccc920123/AndroidDrawableFactory.git">Drawable xhdpi 转换的官网</vendor>
 
   <description><![CDATA[
+      <b>作者：陈渝金</b>  <a href="https://github.com/ccc920123/AndroidDrawableFactory">开源地址</a> <br>
       xhdpi图片转换，能任意转换Android Drawable下的各种规格格式 <br>
       <em>"ldpi", "mdpi", "hdpi", "xhdpi","xxhdpi", "xxxhdpi" </em>
       <em>比如我的美工人员设计了一个图片适合 xhdpi 分辨率的手机，我可以通过AndroidDrawable将这个xhdpi转换成</em>
@@ -12,8 +13,16 @@
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+     DrawableXhdpi 使用方式<br>
+      <em>1.在Android studio 插件工具处搜索“AndroidDrawableXhdpi”并且安装，然后重启Android studio</em><br>
+      <em>2.点击Tools找到DrawableXhdpi 你也可以快捷启动windows系统快捷键 Ctrl+Shift+D</em><br>
+      <em>3.<img src="../icon/main.png"></em><br>
+      <em>1).点击添加图片，添加需要转换的图片</em><br>
+      <em>2).选择图片转换的存放路径</em><br>
+      <em>3).设置需要转换的文件密度，共"ldpi", "mdpi", "hdpi", "xhdpi","xxhdpi", "xxxhdpi"六个密度选择</em><br>
+      <em>也就是这个图片最先设计是按照哪种密度设计</em><br>
+      <em>4).勾选需要转换结果的密度</em><br>
+      <em>5).开始转换</em><br>
     ]]>
   </change-notes>
 
