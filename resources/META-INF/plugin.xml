@@ -1,10 +1,12 @@
 <idea-plugin>
-  <id>com.stardon.androiddrawable.plugin.xhdpi</id>
-  <name>AndroidDrawableXhdpi</name>
-  <version>1.0</version>
-  <vendor email="645503254@qq.com" url="https://github.com/ccc920123/AndroidDrawableFactory.git">Drawable xhdpi 转换的官网</vendor>
+    <id>com.stardon.androiddrawable.plugin.xhdpi</id>
+    <name>DrawableXhdpi</name>
+    <version>1.0</version>
+    <vendor email="645503254@qq.com" url="https://github.com/ccc920123/AndroidDrawableFactory.git">Drawable xhdpi
+        转换的官网
+    </vendor>
 
-  <description><![CDATA[
+    <description><![CDATA[
       <b>作者：陈渝金</b>  <a href="https://github.com/ccc920123/AndroidDrawableFactory">开源地址</a> <br>
       xhdpi图片转换，能任意转换Android Drawable下的各种规格格式 <br>
       <em>"ldpi", "mdpi", "hdpi", "xhdpi","xxhdpi", "xxxhdpi" </em>
@@ -12,40 +14,51 @@
       <em>"ldpi", "mdpi", "hdpi", "xhdpi","xxhdpi", "xxxhdpi"的图片</em>
     ]]></description>
 
-  <change-notes><![CDATA[
+    <change-notes><![CDATA[
      DrawableXhdpi 使用方式<br>
       <em>1.在Android studio 插件工具处搜索“AndroidDrawableXhdpi”并且安装，然后重启Android studio</em><br>
       <em>2.点击Tools找到DrawableXhdpi 你也可以快捷启动windows系统快捷键 Ctrl+Shift+D</em><br>
-      <em>3.<img src="../icon/main.png"></em><br>
+      <em>3.<img src="https://img-blog.csdnimg.cn/20200706172707868.png"></em><br>
       <em>1).点击添加图片，添加需要转换的图片</em><br>
       <em>2).选择图片转换的存放路径</em><br>
       <em>3).设置需要转换的文件密度，共"ldpi", "mdpi", "hdpi", "xhdpi","xxhdpi", "xxxhdpi"六个密度选择</em><br>
       <em>也就是这个图片最先设计是按照哪种密度设计</em><br>
       <em>4).勾选需要转换结果的密度</em><br>
       <em>5).开始转换</em><br>
+
+DrawableXhdpi usage<br>
+<em> 1. Search for "AndroidDrawableXhdpi" in the Android studio plugin tool and install it, then restart Android studio</em><br>
+<em>2. Click Tools to find DrawableXhdpi you can also quickly launch Windows shortcuts Ctrl+Shift+D</em><br>
+<em> 3. < img src = "https://img-blog.csdnimg.cn/20200706172707868.png"> </em> <br>
+<em>1). Click add image to add image to be converted</em><br>
+<em>2). Select the image conversion storage path</em><br>
+<em> 3) set up the need to convert file density, total "ldpi", "mdpi", "hdpi", "xhdpi", "xxhdpi", "xxxhdpi" six density selected </em> <br>
+<em>that is, the image was first designed according to which density</em><br>
+<em>4). Check the density that you want to convert</em><br>
+<em>5). Start conversion</em><br>
     ]]>
-  </change-notes>
+    </change-notes>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="145.0"/>
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="145.0"/>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-       on how to target different products -->
-  <!-- uncomment to enable plugin in all products
-  <depends>com.intellij.modules.lang</depends>
-  -->
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
 
-  <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
-  </extensions>
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
 
-  <actions>
-    <!-- Add your actions here -->
-    <action id="drawableaction" class="com.stardon.androiddrawable.DrawableAction" text="DrawableXhdpi"
-            description="Android Drawable xhdpi 转换工具">
-      <add-to-group group-id="ToolsMenu" anchor="last"/>
-      <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl D"/>
-    </action>
-  </actions>
+    <actions>
+        <!-- Add your actions here -->
+        <action id="drawableaction" class="com.stardon.androiddrawable.DrawableAction" text="DrawableXhdpi"
+                description="Android Drawable xhdpi 转换工具">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl D"/>
+        </action>
+    </actions>
 
 </idea-plugin>
