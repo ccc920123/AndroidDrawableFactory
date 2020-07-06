@@ -4,15 +4,16 @@
 <br>
 <img src="https://img-blog.csdnimg.cn/20200706172707868.png"><br>
 
-mdpi图片转换成ldpi, mdpi, hdpi, xhdpi,xxhdpi, xxxhdpi工具<br> 
+<h3>mdpi图片转换成ldpi, mdpi, hdpi, xhdpi,xxhdpi, xxxhdpi工具</h3><br> 
 
-ldpi图片转换成ldpi, mdpi, hdpi, xhdpi,xxhdpi, xxxhdpi工具<br> 
+<h3>ldpi图片转换成ldpi, mdpi, hdpi, xhdpi,xxhdpi, xxxhdpi工具</h3><br> 
 
-xxhdpi图片转换成ldpi, mdpi, hdpi, xhdpi,xxhdpi, xxxhdpi工具<br> 
+<h3>xxhdpi图片转换成ldpi, mdpi, hdpi, xhdpi,xxhdpi, xxxhdpi工具</h3><br> 
 
-xxxhdpi图片转换成ldpi, mdpi, hdpi, xhdpi,xxhdpi, xxxhdpi工具<br> 
+<h3>xxxhdpi图片转换成ldpi, mdpi, hdpi, xhdpi,xxhdpi, xxxhdpi工具</h3><br> 
 
- Android Drawable xhdpi  xhdpi图片转换，能任意转换Android Drawable下的各种规格格式 <br>       "ldpi", "mdpi", "hdpi", "xhdpi","xxhdpi", "xxxhdpi" </em>   <br>
+
+ <H2>Android Drawable xhdpi  xhdpi图片转换，能任意转换Android Drawable下的各种规格格式</H2> <br>       "ldpi", "mdpi", "hdpi", "xhdpi","xxhdpi", "xxxhdpi" </em>   <br>
  <em>比如我的美工人员设计了一个图片适合 xhdpi 分辨率的手机，我可以通过AndroidDrawable将这个xhdpi转换成;   "ldpi", "mdpi", "hdpi", "xhdpi","xxhdpi", "xxxhdpi"的图片
  <br>
  
