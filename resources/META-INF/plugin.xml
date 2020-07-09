@@ -1,41 +1,49 @@
 <idea-plugin>
-    <id>com.intellij.modules.platform</id>
+    <id>com.stardon.androiddrawable</id>
     <name>DrawableXhdpi</name>
-    <version>1.0</version>
+    <version>2.0</version>
     <vendor email="645503254@qq.com" url="https://github.com/ccc920123/AndroidDrawableFactory.git">Drawable xhdpi
-        转换的官网
+        官网
     </vendor>
 
     <description><![CDATA[
-      <b>作者：陈渝金</b>  <a href="https://github.com/ccc920123/AndroidDrawableFactory">开源地址</a> <br>
-      xhdpi图片转换，能任意转换Android Drawable下的各种规格格式 <br>
-      <em>"ldpi", "mdpi", "hdpi", "xhdpi","xxhdpi", "xxxhdpi" </em>
-      <em>比如我的美工人员设计了一个图片适合 xhdpi 分辨率的手机，我可以通过AndroidDrawable将这个xhdpi转换成</em>
+      <h1><b>作者：陈渝金</b></h1>
+      <br/> <a href="https://github.com/ccc920123/AndroidDrawableFactory">开源地址</a> <br>
+      <br/><a href="https://github.com/ccc920123/AndroidDrawableFactory/issues">问题反馈(issues)</a>
+      <br/> xhdpi图片转换，能任意转换Android Drawable下的各种规格格式   <br>
+      <br/>
+      <br/><em>"ldpi", "mdpi", "hdpi", "xhdpi","xxhdpi", "xxxhdpi" </em>
+      <br/><em>比如我的美工人员设计了一个图片适合 xhdpi 分辨率的手机，我可以通过AndroidDrawable将这个xhdpi转换成</em>
       <em>"ldpi", "mdpi", "hdpi", "xhdpi","xxhdpi", "xxxhdpi"的图片</em>
     ]]></description>
 
     <change-notes><![CDATA[
-     DrawableXhdpi 使用方式<br>
-      <em>1.在Android studio 插件工具处搜索“AndroidDrawableXhdpi”并且安装，然后重启Android studio</em><br>
-      <em>2.点击Tools找到DrawableXhdpi 你也可以快捷启动windows系统快捷键 Ctrl+Shift+D</em><br>
-      <em>3.<img src="https://img-blog.csdnimg.cn/20200706172707868.png"></em><br>
-      <em>1).点击添加图片，添加需要转换的图片</em><br>
-      <em>2).选择图片转换的存放路径</em><br>
-      <em>3).设置需要转换的文件密度，共"ldpi", "mdpi", "hdpi", "xhdpi","xxhdpi", "xxxhdpi"六个密度选择</em><br>
-      <em>也就是这个图片最先设计是按照哪种密度设计</em><br>
-      <em>4).勾选需要转换结果的密度</em><br>
-      <em>5).开始转换</em><br>
-
-DrawableXhdpi usage<br>
-<em> 1. Search for "AndroidDrawableXhdpi" in the Android studio plugin tool and install it, then restart Android studio</em><br>
-<em>2. Click Tools to find DrawableXhdpi you can also quickly launch Windows shortcuts Ctrl+Shift+D</em><br>
-<em> 3. < img src = "https://img-blog.csdnimg.cn/20200706172707868.png"> </em> <br>
-<em>1). Click add image to add image to be converted</em><br>
-<em>2). Select the image conversion storage path</em><br>
-<em> 3) set up the need to convert file density, total "ldpi", "mdpi", "hdpi", "xhdpi", "xxhdpi", "xxxhdpi" six density selected </em> <br>
-<em>that is, the image was first designed according to which density</em><br>
-<em>4). Check the density that you want to convert</em><br>
-<em>5). Start conversion</em><br>
+    <h1> DrawableXhdpi 使用方式</h1><br>
+     <br/>
+      <p><em>1.在Android studio 插件工具处搜索“DrawableXhdpi”并且安装，然后重启Android studio</em><br>
+      <br/> <em>2.点击Tools找到DrawableXhdpi 你也可以快捷启动windows系统快捷键 Ctrl+Shift+D</em><br>
+      <br/> 3. <img src="https://img-blog.csdnimg.cn/20200706173736371.png">
+      <br/> <em>1).点击添加图片，添加需要转换的图片</em><br>
+      <br/><em>2).选择图片转换的存放路径</em><br>
+      <br/><em>3).设置需要转换的文件密度，共"ldpi", "mdpi", "hdpi", "xhdpi","xxhdpi", "xxxhdpi"六个密度选择</em><br>
+      <br/><em>也就是这个图片最先设计是按照哪种密度设计</em><br>
+      <br/><em>4).勾选需要转换结果的密度</em><br>
+      <br/> <em>5).开始转换</em><br>
+      </p>
+ <br/> <em><img src="https://img-blog.csdnimg.cn/20200706172707868.png"></em><br>
+<h1>DrawableXhdpi usage</h1><br>
+<p>
+ <br/><em> 1. Search for "AndroidDrawableXhdpi" in the Android studio plugin tool and install it, then restart Android studio</em><br>
+ <br/><em>2. Click Tools to find DrawableXhdpi you can also quickly launch Windows shortcuts Ctrl+Shift+D</em><br>
+ <br/> 3. <img src="https://img-blog.csdnimg.cn/20200706173736371.png">
+ <br/><em>1). Click add image to add image to be converted</em><br>
+ <br/><em>2). Select the image conversion storage path</em><br>
+ <br/><em> 3) set up the need to convert file density, total "ldpi", "mdpi", "hdpi", "xhdpi", "xxhdpi", "xxxhdpi" six density selected </em> <br>
+ <br/><em>that is, the image was first designed according to which density</em><br>
+ <br/><em>4). Check the density that you want to convert</em><br>
+ <br/><em>5). Start conversion</em><br>
+</p>
+<br/><em> 3. <img src = "https://img-blog.csdnimg.cn/20200706172707868.png"> </em> <br>
     ]]>
     </change-notes>
 
